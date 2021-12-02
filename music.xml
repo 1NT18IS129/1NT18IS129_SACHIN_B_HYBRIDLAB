@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="285dp"
+        android:layout_height="422dp"
+        android:background="#DA7B7B"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:text="songtitle" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            app:backgroundTint="#D8CFCF" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pause"
+            app:backgroundTint="#E4D6D6" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Forward"
+            app:backgroundTint="#D8CBCB" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rewind"
+            app:backgroundTint="#E8D9D9" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Restart"
+            app:backgroundTint="#DFD0D0" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            app:backgroundTint="#DCCDCD" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
